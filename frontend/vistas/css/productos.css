@@ -1,0 +1,346 @@
+/*=============================================
+BANNER
+=============================================*/
+
+.banner{
+	position: relative;
+	overflow:hidden;
+	margin-top: -24px;
+
+}
+
+.banner .textoBanner{
+	position:absolute;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.banner .textoDer{
+	top:50px; 
+	right:50px; 
+	text-align:right;
+}
+
+.banner .textoIzq{
+	top:50px; 
+	left:50px; 
+	text-align:left;
+}
+
+.banner .textoCentro{
+	top:50px; 
+	left:50%;
+	width:800px; 
+	margin-left: -400px;
+	text-align:center;
+}
+
+.textoBanner h1{
+	font-size:35px;
+	line-height:25px;
+}
+
+.textoBanner h2{
+	font-size:30px;
+	line-height:25px;
+}
+
+.textoBanner h3{
+	font-size:24px;
+	line-height:25px;
+}
+
+/*=============================================
+BARRA PRODUCTOS
+=============================================*/
+.barraProductos {
+	margin-top: 10px;
+}
+.barraProductos .organizarProductos span{
+	margin-left:5px;
+}
+
+/*=============================================
+VITRINA PRODUCTOS CUADRÍCULA
+=============================================*/
+
+.tituloDestacado h2{
+	margin-top:15px;
+	color:#777;
+}
+
+.tituloDestacado  a button {
+	margin-top:10px;
+	margin-left:5px;
+}
+
+.productos .ulNoOrdenada .liItem figure{
+	overflow:hidden;
+}
+
+.productos .ulNoOrdenada .liItem a img:hover{
+	transition: .5s all ease;
+	opacity:.8;
+	transform: scale(1.1,1.1);
+}
+
+.productos .ulNoOrdenada .liItem h6 small{
+	color:#777;
+	text-transform:  uppercase;
+	font-size:15px;
+	font-weight: 700px;
+}
+
+.productos .ulNoOrdenada .liItem h6 small a{
+	color:#777;
+}
+
+.productos .ulNoOrdenada .liItem div.precio{
+	padding:0;
+	margin-top:-5px;
+	padding-bottom:20px;
+}
+
+.productos .ulNoOrdenada .liItem div.enlaces{
+	padding:0px;
+	margin-top:-65px;	
+}
+
+.productos .ulNoOrdenada .liItem div.enlaces button{
+	margin:2px;
+}
+
+.productos .ulNoOrdenada .liItem div.enlaces button i{
+	font-size:15px;
+}
+
+/*=============================================
+VITRINA PRODUCTOS LISTA
+=============================================*/
+
+.productos .ulNoOrdenada .liItem h1{
+	margin-top:-15px;
+}
+
+.productos .ulNoOrdenada .liItem h1 small{
+	text-transform: uppercase;
+	font-size:20px;
+	font-weight: 700;
+}
+
+.productos .ulNoOrdenada .liItem h1 small a{
+	color:#777;
+}
+
+.oferta{
+	 text-decoration:line-through;
+	 color:#ccc;
+	 font-size:15px;
+}
+
+.fontSize{
+	font-size:11px;
+}
+
+/*=============================================
+ESCRITORIO EXTRA GRANDE (xl revisamos en 1200px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+	
+	/*=============================================
+	BANNER
+	=============================================*/
+
+	.banner{
+		height:260px;
+	}
+
+}
+
+/*=============================================
+ESCRITORIO GRANDE (lg revisamos en 992px en adelante)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+	/*=============================================
+	BANNER
+	=============================================*/
+
+	.banner{
+		height:260px;
+	}
+
+	.textoBanner h1{
+		margin-top: 30px;
+		font-size:30px;
+		line-height:15px;
+		padding-bottom: 40px
+	}
+
+	.textoBanner h2{
+		font-size:25px;
+		line-height:15px;
+		padding-bottom: 20px
+	}
+
+	.textoBanner h3{
+		font-size:25px;
+		line-height:15px;
+	}
+
+	.banner .textoDer, .banner .textoIzq, .banner .textoCentro{
+		top:35px; 
+	}
+	
+	/*=============================================
+	VITRINA PRODUCTOS CUADRÍCULA
+	=============================================*/
+	
+	.productos .ulNoOrdenada .liItem h1,h2{
+	margin-top:-25px;
+	}
+
+	.productos .ulNoOrdenada .liItem p{
+	margin-top:-10px;
+	}
+
+	.productos .ulNoOrdenada .liItem p{
+	margin-top:-10px;
+	}
+
+	.productos .ulNoOrdenada .liItem div.precio{
+	padding:0;
+	margin-top:20px;
+	padding-bottom:20px;
+	}
+	
+	.productos .ulNoOrdenada .liItem div.enlaces{
+	padding:0px;
+	margin-top:-65px;	
+	}
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (md revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+	
+	/*=============================================
+	BANNER
+	=============================================*/
+
+	.banner{
+		height:180px;
+	}
+	
+	.textoBanner h1{
+		font-size:30px;
+		line-height:15px;
+		padding-bottom: 40px
+	}
+
+	.textoBanner h2{
+		font-size:25px;
+		line-height:15px;
+		padding-bottom: 10px
+	}
+
+	.textoBanner h3{
+		font-size:25px;
+		line-height:15px;
+	}
+
+	.banner .textoDer, .banner .textoIzq, .banner .textoCentro{
+		top:35px; 
+	}
+
+	/*=============================================
+	VITRINA PRODUCTOS CUADRÍCULA
+	=============================================*/
+
+	.productos .ulNoOrdenada .liItem h1,h2{
+	margin-top:-20px;
+	}
+
+	.productos .ulNoOrdenada .liItem p{
+	margin-top:-10px;
+	}
+
+	.productos .ulNoOrdenada .liItem p{
+	margin-top:-10px;
+	}
+	
+	.productos .ulNoOrdenada .liItem div.precio{
+	padding:0;
+	margin-top:20px;
+	padding-bottom:20px;
+	}
+
+	.productos .ulNoOrdenada .liItem div.enlaces{
+	padding:0px;
+	margin-top:-65px;	
+	}
+
+
+
+
+
+}
+
+/*=============================================
+MOVIL (sm - col revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+	.banner{
+		height:100px;
+	}
+
+	.banner .textoDer, .banner .textoCentro, .banner .textoIzq{
+		top:30px; 
+		left:50%;
+		width:800px; 
+		margin-left: -400px;
+		text-align:center;
+		text-shadow:2px 2px 20px black;
+	}
+
+	.textoBanner h1{
+		font-size:20px;
+		line-height:5px;
+		padding-bottom: 10px
+	}
+
+	.textoBanner h2{
+		font-size:20px;
+		line-height:5px;
+		padding-bottom: 0px
+	}
+
+	.textoBanner h2{
+		font-size:15px;
+		line-height:5px;
+	}
+	
+	.tituloDestacado h2{
+	text-align:center;
+	}
+	
+	.tituloDestacado a button{
+		position: absolute;
+		left:30%;
+		width:40%;
+		margin-left:0%;
+		margin-top:-8px;
+
+	}
+
+	.productos .productos .ulNoOrdenada .liItem h4 small{
+		font-size:16px;
+	}
+
+}

@@ -1,0 +1,71 @@
+.carousel .slide {
+  height: 90%;
+  width: 100%;
+}
+
+.carousel-inner img {
+  height: 500px;
+}
+
+/*=============================================
+ESCRITORIO EXTRA GRANDE (xl revisamos en 1200px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+
+
+
+}
+
+/*=============================================
+ESCRITORIO GRANDE (lg revisamos en 992px en adelante)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+
+
+}
+
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (md revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+
+
+}
+
+
+/*=============================================
+MOVIL (sm - col revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+.carousel-item h2 {
+	font-size: 25px;
+}
+
+.carousel-item h3 {
+	font-size: 20px;
+	display: none;
+}
+
+
+.carousel-item h4 {
+	font-size: 15px;
+	display: none;
+}
+
+.carousel-item a button{
+	font-size: 8px;
+}
+.carousel-inner img {
+  height: 200px;
+}
+
+}

@@ -1,0 +1,319 @@
+/*=============================================
+TOP SUPERIOR
+=============================================*/
+
+#topSuperior p {
+	margin: 0px -5px 0px 0px;
+}
+
+
+/*=============================================
+TOP
+=============================================*/
+
+/*=============================================
+BUSCARDOR
+=============================================*/
+
+#buscador{
+	padding-top:25px;
+	padding-left: 25px;
+}
+
+#buscador input{
+	padding:10px;
+	border-radius:15px;
+}
+
+#buscador button{
+	padding:5px;
+	border:1px solid silver;
+	border-radius:10px;
+}
+
+/*=============================================
+REDES SOCIALES
+=============================================*/
+
+#top .social ul{
+	padding-top:0px;
+	padding-left: 50px;
+}
+
+#top .social ul li{
+	display:inline;
+	line-height:3px;
+	margin:0px 2px;
+	color:white;
+
+}
+.social ul li a i{
+	font-size:25px;
+	margin:0 0px;
+
+}
+
+/*=============================================
+INGRESAR - REGISTRO
+=============================================*/
+
+#top .registro ul{
+	padding-top:25px;
+	margin: 0px 0px 0px 0px;
+}
+
+#top .registro ul li{
+	display:inline;
+	line-height:30px;
+	margin:0px 0px;
+	color:white;
+}
+
+.registro ul{
+	text-align: center;
+	font-size: 14px;
+}
+
+.registro ul i{
+	font-size: 20px;
+}
+
+
+/*=============================================
+CARRITO
+=============================================*/
+
+#carrito{
+	margin:15px;
+	margin-left: -40px; 
+}
+
+#carrito button{
+	padding:9px 15px;
+	border:1px solid silver;
+	border-radius:10px;
+}
+
+#carrito p{
+	padding:3px;
+	padding-left:60px;
+	border:1px solid #aaa;
+	font-size:12px;
+	border-radius:10px;
+}
+
+/*=============================================
+HEADER
+=============================================*/
+.navegacion ul li:hover .subMenu{
+	
+	display: list-item;
+}
+
+/*=============================================
+VENTANAS MODALES
+=============================================*/
+
+.modalTitulo{
+	padding:5px 0px;
+}
+
+.modalTitulo h3{
+	text-align:center;
+	margin-top:-5px;
+	padding:5px 0px;
+	border-radius:5px 5px 0px 0px;
+}
+
+.modalFormulario .close{
+	position:absolute;
+	right:27px;
+	top:10px;
+	color:white;
+}
+
+.modalFormulario .facebook, .modalFormulario .google{
+	cursor:pointer;
+}
+
+.modalFormulario .facebook p{
+	background:#46639f;
+	color:white;
+}
+
+.modalFormulario .google p{
+	background:hsl(0, 10%, 90%);
+	color:black;
+}
+
+.modalFormulario .facebook p, .modalFormulario .google p{
+	
+	text-align:center;
+	line-height:20px;
+	padding:8px;
+	font-size:18px;
+	margin-top:10px;
+	margin-bottom:0px;
+	border-radius: 5px;
+}
+
+.modalFormulario p i{
+	margin-left:-25px;
+	margin-right:25px;
+	font-size:25px;	
+}
+
+.modalFormulario form{
+	padding:20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.modalFormulario form hr{
+	border:1px solid #eee;
+}
+
+
+.modalFormulario form hr{
+	border:1px solid #eee;
+}
+
+
+
+
+/*=============================================
+ESCRITORIO EXTRA GRANDE (xl revisamos en 1200px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+	/*=============================================
+	TOP
+	=============================================*/
+
+	#logotipo img{
+		padding:20px;
+		padding-left:0px;
+		margin: 0px 0px 0px 25px;
+
+
+	}
+
+	#carrito{
+		padding-left:100px;
+	}
+
+}
+
+/*=============================================
+ESCRITORIO GRANDE (lg revisamos en 992px en adelante)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+	/*=============================================
+	TOP
+	=============================================*/
+
+	#logotipo img{
+		padding:20px;
+		padding-left:0px;
+		margin: 0px 0px 0px 25px;
+
+
+	}
+	.registro{
+		padding-left: 0px;
+	}
+
+	#carrito{
+		padding-left:50px;
+	}
+
+		#top .social ul{
+		padding-left: 10px;
+		margin-left: 15px;
+	}
+
+}
+
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (md revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+	/*=============================================
+	TOP
+	=============================================*/
+
+	#logotipo img{
+		padding:20px 0px;
+		margin: 0px 0px 0px 0px;
+	}
+
+	#top #carrito{
+		padding-left:50px;
+	}
+
+	.registro{
+		padding-left: 0px
+	}
+	#top .social ul{
+		padding-left: 25px;
+	}
+
+}
+
+
+/*=============================================
+MOVIL (sm - col revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+	/*=============================================
+	TOP
+	=============================================*/
+
+	#buscador{
+		margin-bottom:0;
+	}
+
+	#top ul{
+		text-align: center;
+	}
+
+	#logotipo img{
+		padding:0px;
+		padding-bottom:10px;
+	}
+
+
+	
+	#top #carrito{
+
+		padding-left:0px;
+		padding-right:0px;
+		margin-left: 55px;
+	}
+
+	#top .social ul{
+		padding-left: 0px;
+		margin-left: 0px;
+	}
+
+	
+	/*=============================================
+	HEADER
+	=============================================*/
+
+	
+	header #categorias{
+		margin-bottom:10px;
+	}
+
+	
+}
+
